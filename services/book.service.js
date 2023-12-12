@@ -67,7 +67,7 @@ function save(book) {
     }
 }
 
-function getEmptyBook(title = '', Price = 0,thumbnail= 'book.png') {
+function getEmptyBook(title = '', Price = 0,thumbnail= './assets/img/books/book.png') {
     return {
         title: '',
         subtitle: '',
