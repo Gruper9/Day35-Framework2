@@ -66,7 +66,7 @@ export function BookDetails({ bookId, onBack }) {
 
             <h3>{isVintage}</h3>
             <p><strong>Description:</strong> {book.description}</p>
-            <img src={`../assets/img/books/${book.thumbnail}`} alt={`Thumbnail for ${book.title}`} />
+            <img src={`${book.thumbnail}`} alt={`Thumbnail for ${book.title}`} />
             <button onClick={onBack}>Back</button>
             <button onClick={onNextBook}>next book</button>
             <button onClick={onPrevBook}>prev book</button>

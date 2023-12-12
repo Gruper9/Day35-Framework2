@@ -13,7 +13,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "20.jpg",
+    "thumbnail": "../assets/img/books/20.jpg",
     "language": "en",
     "listPrice": {
       "amount": 109,
@@ -35,7 +35,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "14.jpg",
+    "thumbnail": "../assets/img/books/14.jpg",
     "language": "sp",
     "listPrice": {
       "amount": 44,
@@ -57,7 +57,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "2.jpg",
+    "thumbnail": "../assets/img/books/2.jpg",
     "language": "he",
     "listPrice": {
       "amount": 108,
@@ -79,7 +79,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "16.jpg",
+    "thumbnail": "../assets/img/books/16.jpg",
     "language": "en",
     "listPrice": {
       "amount": 30,
@@ -101,7 +101,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "12.jpg",
+    "thumbnail": "../assets/img/books/12.jpg",
     "language": "sp",
     "listPrice": {
       "amount": 19,
@@ -123,7 +123,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "1.jpg",
+    "thumbnail": "../assets/img/books/1.jpg",
     "language": "en",
     "listPrice": {
       "amount": 91,
@@ -145,7 +145,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "14.jpg",
+    "thumbnail": "../assets/img/books/14.jpg",
     "language": "he",
     "listPrice": {
       "amount": 90,
@@ -167,7 +167,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "11.jpg",
+    "thumbnail": "../assets/img/books/11.jpg",
     "language": "he",
     "listPrice": {
       "amount": 176,
@@ -189,7 +189,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "10.jpg",
+    "thumbnail": "../assets/img/books/10.jpg",
     "language": "sp",
     "listPrice": {
       "amount": 116,
@@ -211,7 +211,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "5.jpg",
+    "thumbnail": "../assets/img/books/5.jpg",
     "language": "en",
     "listPrice": {
       "amount": 145,
@@ -233,7 +233,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "16.jpg",
+    "thumbnail": "../assets/img/books/16.jpg",
     "language": "sp",
     "listPrice": {
       "amount": 157,
@@ -255,7 +255,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "17.jpg",
+    "thumbnail": "../assets/img/books/17.jpg",
     "language": "sp",
     "listPrice": {
       "amount": 57,
@@ -277,7 +277,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "8.jpg",
+    "thumbnail": "../assets/img/books/8.jpg",
     "language": "en",
     "listPrice": {
       "amount": 167,
@@ -299,7 +299,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "3.jpg",
+    "thumbnail": "../assets/img/books/3.jpg",
     "language": "he",
     "listPrice": {
       "amount": 150,
@@ -321,7 +321,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "6.jpg",
+    "thumbnail": "../assets/img/books/6.jpg",
     "language": "en",
     "listPrice": {
       "amount": 58,
@@ -343,7 +343,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "7.jpg",
+    "thumbnail": "../assets/img/books/7.jpg",
     "language": "en",
     "listPrice": {
       "amount": 78,
@@ -365,7 +365,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "10.jpg",
+    "thumbnail": "../assets/img/books/10.jpg",
     "language": "en",
     "listPrice": {
       "amount": 118,
@@ -387,7 +387,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "12.jpg",
+    "thumbnail": "../assets/img/books/12.jpg",
     "language": "he",
     "listPrice": {
       "amount": 60,
@@ -409,7 +409,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "20.jpg",
+    "thumbnail": "../assets/img/books/20.jpg",
     "language": "he",
     "listPrice": {
       "amount": 110,
@@ -431,7 +431,7 @@ export const booksJson = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "2.jpg",
+    "thumbnail": "../assets/img/books/2.jpg",
     "language": "sp",
     "listPrice": {
       "amount": 186,

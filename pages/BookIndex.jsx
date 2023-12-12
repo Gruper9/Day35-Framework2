@@ -4,6 +4,8 @@ import { bookService } from "../services/book.service.js"
 import { BookDetails } from "./BookDetails.jsx"
 import { BookFilter } from "../cmp/BookFilter.jsx"
 import { BookList } from "../cmp/BookList.jsx"
+import { BookAdd } from "../cmp/BookAdd.jsx"
+
 const { useState, useEffect } = React
 
 export function BookIndex() {
@@ -27,9 +29,9 @@ export function BookIndex() {
     }
 
     function onRemoveBook(bookId) {
-        carService.remove(bookId)
+        bookService.remove(bookId)
             .then(() => {
-                setCars(prevBook => {
+                setBooks(prevBook => {
                     return prevBook.filter(book => book.id !== bookId)
                 })
             })
@@ -51,6 +53,7 @@ export function BookIndex() {
                         <h1>Welcome to book index!</h1>
                         <BookFilter filterBy={filterBy} onSetFilter={onSetFilter} />
                         <button><Link to="/book/edit">Add</Link></button>
+                        <button><Link to="/book/edit/addbook">Search on Google</Link></button>
                         <BookList books={books} onRemoveBook={onRemoveBook} />
                     </React.Fragment>
                 }

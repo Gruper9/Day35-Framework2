@@ -67,11 +67,11 @@ function save(book) {
     }
 }
 
-function getEmptyBook(title = '', Price = 0) {
+function getEmptyBook(title = '', Price = 0,thumbnail= 'book.png') {
     return {
         title: '',
         subtitle: '',
-        thumbnail: 'book.png',
+        thumbnail,
         listPrice: {
             amount: 0,
             currencyCode: "EUR",
