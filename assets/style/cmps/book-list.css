@@ -1,0 +1,13 @@
+.books-container {
+    display: grid;
+    /* background-color: red/; */
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+}
+
+.book-item {
+    padding: 16px;
+    border: 1px solid #ddd;
+    /* display: grid;
+    justify-content: space-around; */
+}
