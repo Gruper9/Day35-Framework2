@@ -26,7 +26,7 @@ export function App() {
                 </Routes>
             </main>
             <UserMsg />
-            console.log('hello');
+    
         </section>
     </Router>
     )

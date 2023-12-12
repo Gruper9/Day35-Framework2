@@ -16,6 +16,7 @@ export const bookService = {
     getFilterBy,
     setFilterBy,
     getDefaultFilter,
+    getPrevBookId
 }
 
 _createBooksFromJson()
@@ -66,14 +67,14 @@ function save(book) {
 }
 
 function getEmptyBook(title = '', Price = 0) {
-    return   {
+    return {
         title: '',
         subtitle: '',
         thumbnail: 'book.png',
         listPrice: {
-          amount: 0,
-          currencyCode: "EUR",
-          isOnSale: false
+            amount: 0,
+            currencyCode: "EUR",
+            isOnSale: false
         }
     }
 }
@@ -93,6 +94,14 @@ function getNextBookId(bookId) {
         .then(books => {
             let nextBookIdx = books.findIndex(book => book.id === bookId) + 1
             if (nextBookIdx === books.length) nextBookIdx = 0
+            return books[nextBookIdx].id
+        })
+}
+function getPrevBookId(bookId) {
+    return storageService.query(BOOK_KEY)
+        .then(books => {
+            let nextBookIdx = books.findIndex(book => book.id === bookId) - 1
+            if (nextBookIdx === 0) nextBookIdx = books.length - 1
             return books[nextBookIdx].id
         })
 }
