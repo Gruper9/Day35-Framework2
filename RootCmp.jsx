@@ -8,6 +8,7 @@ import { BookIndex } from "./pages/BookIndex.jsx"
 import { Home } from "./pages/Home.jsx"
 import { BookEdit } from "./pages/BookEdit.jsx"
 import { UserMsg } from "./cmp/UserMsg.jsx"
+import { BookAdd } from "./cmp/BookAdd.jsx"
 
 
 export function App() {
@@ -23,6 +24,7 @@ export function App() {
                     <Route path="/book/:bookId" element={<BookDetails />} />
                     <Route path="/book/edit" element={<BookEdit />} />
                     <Route path="/book/edit/:bookId" element={<BookEdit />} />
+                    <Route path="/book/edit/addbook" element={<BookAdd />} />
                 </Routes>
             </main>
             <UserMsg />

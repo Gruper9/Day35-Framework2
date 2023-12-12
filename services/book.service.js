@@ -16,7 +16,8 @@ export const bookService = {
     getFilterBy,
     setFilterBy,
     getDefaultFilter,
-    getPrevBookId
+    getPrevBookId,
+    ask
 }
 
 _createBooksFromJson()
@@ -124,3 +125,9 @@ function _createBooks() {
         utilService.saveToStorage(BOOK_KEY, books)
     }
 }
+
+function ask(userSearch) {
+    return axios.get(`https://www.googleapis.com/books/v1/volumes?printType=books&q=${userSearch}`).then(res => res.data)
+}
+
+
